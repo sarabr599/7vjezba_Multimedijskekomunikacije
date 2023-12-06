@@ -1,0 +1,214 @@
+body{
+    padding-left:400px;
+	font-family: Arial;
+}
+/*prvidio*/
+.sve1{
+	position:relative;
+	width:700px;
+    border-radius: 0%;
+	border: 5px double rgba(85,107,47,0.5);    
+}
+
+#zadatak1 {
+    width: 700px;
+	margin: 30px 0 30px;
+	text-align: justify;
+}
+
+#zadatak1 h1 {
+    font-size:25px;
+	font-family: Arial;
+	text-align: center;
+	text-transform: uppercase;
+    color: DarkOliveGreen;
+	text-decoration: underline;
+	
+}
+#zadatak1 h2{
+    font-size:20px;
+	font-family:Arial;
+	font-style: italic;
+	text-align: center;
+	text-transform: uppercase;
+    color: DarkKhaki;
+	text-decoration: underline;
+}
+#zadatak1 ul.prva {
+    list-style: none;
+	text-align: center;
+	padding-left:100px;
+}
+#zadatak1 ul.prva li {
+    width: 500px;
+	margin:3px;
+    background-color: DarkOliveGreen;
+    border: 2px solid DarkKhaki;
+}
+#zadatak1 ul.prva li a {
+    color: DarkKhaki;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#zadatak1 p{
+	color:DarkOliveGreen;
+}
+
+img, video{
+   width: 600px;
+   height: 400px;
+   margin:0px 0px 0px 48px;
+   border-radius: 10%;
+   border: 5px double rgba(85,107,47,0.5); 
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7 iframe{
+	width: 600px;
+	height: 400px;
+	margin:0px 0px 0px 45px;
+	border-radius: 10%;
+	border: 5px double rgba(85,107,47,0.5); 
+}
+
+#zadatak1 button{
+    background-color: DarkOliveGreen; 
+    border: 2px solid DarkKhaki; 
+	width: 100px;
+	height: 50px;
+    cursor: pointer; 
+	list-style: none;
+    display: flex;
+    float:left;
+    margin-left:32px;	
+    justify-content: center;
+    align-items: center;   
+}
+#zadatak1 button a{
+	font-size:10px;
+	color:DarkKhaki;
+	text-transform: uppercase;
+}
+/*lijevo ili desno*/
+#zadatak3, #zadatak4{
+	margin: 30px 0 30px;
+}
+audio{
+	width: 600px;
+	margin:20px 0px 20px 50px;
+}
+/*prvi dio-navigacija*/
+#zadatak1 li:first-child a:hover {
+	font-size: 23px;
+	font-style: italic;
+	color:DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+#zadatak1 li:nth-child(2) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+#zadatak1 li:nth-child(3) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+#zadatak1 li:nth-child(4) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+#zadatak1 li:nth-child(5) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+#zadatak1 li:nth-child(6) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+
+#zadatak1 li:nth-child(7) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: DarkOliveGreen;
+	background-color: PaleGoldenRod;
+	text-decoration: underline;
+}
+
+/*drugidio*/
+.sve2{
+	position:relative;
+	width:700px;
+    border-radius: 10%; 
+	border: 5px double rgba(85,107,47,0.5);   
+}
+#zadatak2 h1 {
+    font-size:20px;
+	font-family: Arial;
+	text-align: center;
+	text-transform: uppercase;
+    color: DarkOliveGreen;
+	text-decoration: underline;
+}
+#zadatak2 form{
+	margin:0px 0px 0px 60px;
+}
+#zadatak2 label {
+    font-weight: bold;
+	color:DarkOliveGreen;
+	display: block;
+}
+#zadatak2 input {
+    width: 50%;
+    font-size:15px; 
+	padding: 10px;
+	margin: 20px;
+    background-color: PaleGoldenRod;
+	border:6px double DarkOliveGreen;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+#zadatak2 input[type="color"] {
+    height: 80px;
+    padding: 2px;
+}
+#zadatak2 input:focus {
+    background-color: rgba(245,222,179);
+}
+#zadatak2 input:active{
+     background-color: rgba(210,180,140);
+}
+#zadatak2 textarea{
+	background-color: rgba(238,232,170);
+}
+#zadatak2 textarea:active{
+	background-color: rgba(210,180,140);
+}
+#zadatak2 button[type="submit"]:hover{
+    box-shadow: 3px 3px 3px DarkOliveGreen;
+}
+#zadatak2 button[type="submit"] {
+	font-weight: bold;
+	color: PaleGoldenRod;
+    width: 20%;
+    height: 30px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: DarkOliveGreen; 
+}
